@@ -1,4 +1,4 @@
 function myFunction()
 {
-document.getElementById("display").value = "5";
+    document.getElementById("display").value = "5";
 }
