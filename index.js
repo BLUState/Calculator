@@ -1,4 +1,6 @@
-function myFunction()
+function deleteLast()
 {
-    document.getElementById("display").value = "5";
+    var string = document.getElementById("display").value;
+    var newString = string.substring(0, string.length - 1);
+    document.getElementById("display").value = newString;
 }
