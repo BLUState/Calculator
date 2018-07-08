@@ -42,6 +42,13 @@ td
     border-radius: 12px;
     background-color: rgb(26, 5, 121);
     color: rgb(226, 209, 114);
+    cursor: pointer;
+}
+
+.inputButton:hover
+{
+    transition: 0.1s;
+    transform: scale(1.1);
 }
 
 .button
@@ -54,6 +61,12 @@ td
     text-align: center;
     font-size: 16px;
     cursor: pointer;
+}
+
+.button:hover
+{
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .textBox
